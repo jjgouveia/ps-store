@@ -18,12 +18,27 @@
 .menu-bar__logo > img {
 	width: 140px;
 	height: 32px;
+	cursor: pointer;
 }
 
 .menu-bar__item > ul {
-	display: flex;
-	gap: 32px;
-	border: 1px solid black;
-	height: 100%;
 	align-items: center;
+	display: flex;
+	gap: 16px;
+	height: 100%;
+	margin-right: 30px;
+}
+
+.menu-bar__item li {
+	text-align: center;
+	width: 65px;
+}
+
+.menu-bar__item a {
+	transition: all 0.3s;
+}
+
+.menu-bar__item a:hover {
+	color: blue;
+	font-weight: 600;
 }
